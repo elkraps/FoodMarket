@@ -11,6 +11,25 @@
 		CC8CBBC12A56F9930089F9CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8CBBC02A56F9930089F9CB /* ContentView.swift */; };
 		CC8CBBC32A56F9940089F9CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC8CBBC22A56F9940089F9CB /* Assets.xcassets */; };
 		CC8CBBC62A56F9940089F9CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC8CBBC52A56F9940089F9CB /* Preview Assets.xcassets */; };
+		CC8CBBCD2A56F9C80089F9CB /* EmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8CBBCC2A56F9C80089F9CB /* EmptyView.swift */; };
+		CC8CBBD02A56FD920089F9CB /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8CBBCF2A56FD920089F9CB /* MainView.swift */; };
+		CC8CBBD22A56FDBB0089F9CB /* DateLocalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8CBBD12A56FDBB0089F9CB /* DateLocalView.swift */; };
+		CC8CBBD52A5700980089F9CB /* Sfont.otf in Resources */ = {isa = PBXBuildFile; fileRef = CC8CBBD42A5700980089F9CB /* Sfont.otf */; };
+		CC8CBBD92A5703630089F9CB /* Data + extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8CBBD82A5703630089F9CB /* Data + extension.swift */; };
+		CC8CBBDD2A570BEB0089F9CB /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8CBBDC2A570BEB0089F9CB /* CategoryView.swift */; };
+		CC8CBBDF2A570DBB0089F9CB /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8CBBDE2A570DBB0089F9CB /* Category.swift */; };
+		CC8CBBE22A570E2F0089F9CB /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8CBBE12A570E2F0089F9CB /* ApiService.swift */; };
+		CC8CBBE42A570F310089F9CB /* Dishes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8CBBE32A570F310089F9CB /* Dishes.swift */; };
+		CC8CBBE72A570FA20089F9CB /* CombineCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = CC8CBBE62A570FA20089F9CB /* CombineCocoa */; };
+		CC8CBBE92A570FC00089F9CB /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8CBBE82A570FC00089F9CB /* Endpoint.swift */; };
+		CC8CBBEB2A5740A30089F9CB /* CategoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8CBBEA2A5740A30089F9CB /* CategoryViewModel.swift */; };
+		CC8CBBED2A58718F0089F9CB /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8CBBEC2A58718F0089F9CB /* ImageLoader.swift */; };
+		CC8CBBEF2A5872FC0089F9CB /* CategoryImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8CBBEE2A5872FC0089F9CB /* CategoryImage.swift */; };
+		CC8CBBF32A59AC750089F9CB /* DishesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8CBBF22A59AC750089F9CB /* DishesViewModel.swift */; };
+		CC8CBBF52A59AE490089F9CB /* DishesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8CBBF42A59AE490089F9CB /* DishesView.swift */; };
+		CC8CBBF72A5A81590089F9CB /* DishView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8CBBF62A5A81590089F9CB /* DishView.swift */; };
+		CC8CBBF92A5A873B0089F9CB /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8CBBF82A5A873B0089F9CB /* PopUpView.swift */; };
+		CC8CBBFD2A5BD3C00089F9CB /* HorizontalCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC8CBBFC2A5BD3C00089F9CB /* HorizontalCategoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +38,25 @@
 		CC8CBBC02A56F9930089F9CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CC8CBBC22A56F9940089F9CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC8CBBC52A56F9940089F9CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CC8CBBCC2A56F9C80089F9CB /* EmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyView.swift; sourceTree = "<group>"; };
+		CC8CBBCF2A56FD920089F9CB /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		CC8CBBD12A56FDBB0089F9CB /* DateLocalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateLocalView.swift; sourceTree = "<group>"; };
+		CC8CBBD42A5700980089F9CB /* Sfont.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sfont.otf; sourceTree = "<group>"; };
+		CC8CBBD62A5700AF0089F9CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CC8CBBD82A5703630089F9CB /* Data + extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data + extension.swift"; sourceTree = "<group>"; };
+		CC8CBBDC2A570BEB0089F9CB /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
+		CC8CBBDE2A570DBB0089F9CB /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		CC8CBBE12A570E2F0089F9CB /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		CC8CBBE32A570F310089F9CB /* Dishes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dishes.swift; sourceTree = "<group>"; };
+		CC8CBBE82A570FC00089F9CB /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		CC8CBBEA2A5740A30089F9CB /* CategoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewModel.swift; sourceTree = "<group>"; };
+		CC8CBBEC2A58718F0089F9CB /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		CC8CBBEE2A5872FC0089F9CB /* CategoryImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryImage.swift; sourceTree = "<group>"; };
+		CC8CBBF22A59AC750089F9CB /* DishesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishesViewModel.swift; sourceTree = "<group>"; };
+		CC8CBBF42A59AE490089F9CB /* DishesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishesView.swift; sourceTree = "<group>"; };
+		CC8CBBF62A5A81590089F9CB /* DishView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishView.swift; sourceTree = "<group>"; };
+		CC8CBBF82A5A873B0089F9CB /* PopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpView.swift; sourceTree = "<group>"; };
+		CC8CBBFC2A5BD3C00089F9CB /* HorizontalCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalCategoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC8CBBE72A570FA20089F9CB /* CombineCocoa in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,8 +90,16 @@
 		CC8CBBBD2A56F9930089F9CB /* FoodMarket */ = {
 			isa = PBXGroup;
 			children = (
-				CC8CBBBE2A56F9930089F9CB /* FoodMarketApp.swift */,
+				CC8CBBF02A59AABC0089F9CB /* ViewModels */,
+				CC8CBBE02A570E170089F9CB /* ApiService */,
+				CC8CBBDA2A57056A0089F9CB /* Model */,
+				CC8CBBD72A5703560089F9CB /* Extension */,
+				CC8CBBD62A5700AF0089F9CB /* Info.plist */,
+				CC8CBBD32A5700660089F9CB /* Font */,
+				CC8CBBCE2A56FD870089F9CB /* Views */,
+				CC8CBBCC2A56F9C80089F9CB /* EmptyView.swift */,
 				CC8CBBC02A56F9930089F9CB /* ContentView.swift */,
+				CC8CBBBE2A56F9930089F9CB /* FoodMarketApp.swift */,
 				CC8CBBC22A56F9940089F9CB /* Assets.xcassets */,
 				CC8CBBC42A56F9940089F9CB /* Preview Content */,
 			);
@@ -65,6 +112,81 @@
 				CC8CBBC52A56F9940089F9CB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CC8CBBCE2A56FD870089F9CB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CC8CBBF12A59AAE40089F9CB /* New Group */,
+				CC8CBBDB2A570A780089F9CB /* MainScreen */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CC8CBBD32A5700660089F9CB /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				CC8CBBD42A5700980089F9CB /* Sfont.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		CC8CBBD72A5703560089F9CB /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CC8CBBD82A5703630089F9CB /* Data + extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		CC8CBBDA2A57056A0089F9CB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CC8CBBDE2A570DBB0089F9CB /* Category.swift */,
+				CC8CBBE32A570F310089F9CB /* Dishes.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CC8CBBDB2A570A780089F9CB /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+				CC8CBBCF2A56FD920089F9CB /* MainView.swift */,
+				CC8CBBD12A56FDBB0089F9CB /* DateLocalView.swift */,
+				CC8CBBDC2A570BEB0089F9CB /* CategoryView.swift */,
+				CC8CBBEE2A5872FC0089F9CB /* CategoryImage.swift */,
+				CC8CBBF42A59AE490089F9CB /* DishesView.swift */,
+				CC8CBBF62A5A81590089F9CB /* DishView.swift */,
+				CC8CBBF82A5A873B0089F9CB /* PopUpView.swift */,
+				CC8CBBFC2A5BD3C00089F9CB /* HorizontalCategoryView.swift */,
+			);
+			path = MainScreen;
+			sourceTree = "<group>";
+		};
+		CC8CBBE02A570E170089F9CB /* ApiService */ = {
+			isa = PBXGroup;
+			children = (
+				CC8CBBE12A570E2F0089F9CB /* ApiService.swift */,
+				CC8CBBE82A570FC00089F9CB /* Endpoint.swift */,
+				CC8CBBEC2A58718F0089F9CB /* ImageLoader.swift */,
+			);
+			path = ApiService;
+			sourceTree = "<group>";
+		};
+		CC8CBBF02A59AABC0089F9CB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				CC8CBBEA2A5740A30089F9CB /* CategoryViewModel.swift */,
+				CC8CBBF22A59AC750089F9CB /* DishesViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CC8CBBF12A59AAE40089F9CB /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +205,9 @@
 			dependencies = (
 			);
 			name = FoodMarket;
+			packageProductDependencies = (
+				CC8CBBE62A570FA20089F9CB /* CombineCocoa */,
+			);
 			productName = FoodMarket;
 			productReference = CC8CBBBB2A56F9930089F9CB /* FoodMarket.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +236,9 @@
 				Base,
 			);
 			mainGroup = CC8CBBB22A56F9930089F9CB;
+			packageReferences = (
+				CC8CBBE52A570FA20089F9CB /* XCRemoteSwiftPackageReference "CombineCocoa" */,
+			);
 			productRefGroup = CC8CBBBC2A56F9930089F9CB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC8CBBC62A56F9940089F9CB /* Preview Assets.xcassets in Resources */,
+				CC8CBBD52A5700980089F9CB /* Sfont.otf in Resources */,
 				CC8CBBC32A56F9940089F9CB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +266,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC8CBBF32A59AC750089F9CB /* DishesViewModel.swift in Sources */,
 				CC8CBBC12A56F9930089F9CB /* ContentView.swift in Sources */,
+				CC8CBBE42A570F310089F9CB /* Dishes.swift in Sources */,
+				CC8CBBDF2A570DBB0089F9CB /* Category.swift in Sources */,
+				CC8CBBEF2A5872FC0089F9CB /* CategoryImage.swift in Sources */,
+				CC8CBBDD2A570BEB0089F9CB /* CategoryView.swift in Sources */,
+				CC8CBBF52A59AE490089F9CB /* DishesView.swift in Sources */,
+				CC8CBBEB2A5740A30089F9CB /* CategoryViewModel.swift in Sources */,
+				CC8CBBD02A56FD920089F9CB /* MainView.swift in Sources */,
+				CC8CBBF72A5A81590089F9CB /* DishView.swift in Sources */,
+				CC8CBBCD2A56F9C80089F9CB /* EmptyView.swift in Sources */,
+				CC8CBBFD2A5BD3C00089F9CB /* HorizontalCategoryView.swift in Sources */,
+				CC8CBBE22A570E2F0089F9CB /* ApiService.swift in Sources */,
 				CC8CBBBF2A56F9930089F9CB /* FoodMarketApp.swift in Sources */,
+				CC8CBBD22A56FDBB0089F9CB /* DateLocalView.swift in Sources */,
+				CC8CBBE92A570FC00089F9CB /* Endpoint.swift in Sources */,
+				CC8CBBF92A5A873B0089F9CB /* PopUpView.swift in Sources */,
+				CC8CBBED2A58718F0089F9CB /* ImageLoader.swift in Sources */,
+				CC8CBBD92A5703630089F9CB /* Data + extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +415,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FoodMarket/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FoodMarket/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +444,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"FoodMarket/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FoodMarket/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -337,6 +485,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CC8CBBE52A570FA20089F9CB /* XCRemoteSwiftPackageReference "CombineCocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CombineCommunity/CombineCocoa.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CC8CBBE62A570FA20089F9CB /* CombineCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CC8CBBE52A570FA20089F9CB /* XCRemoteSwiftPackageReference "CombineCocoa" */;
+			productName = CombineCocoa;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = CC8CBBB32A56F9930089F9CB /* Project object */;
 }
